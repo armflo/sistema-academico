@@ -1,0 +1,46 @@
+body{
+	margin:10px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+a{
+	outline:0;
+	text-decoration:none;
+}
+	
+.ventanaD {width:600px;-webkit-box-shadow: 5px 5px 0 #e7e7e8; -moz-box-shadow: 5px 5px 0 #808080; 
+	box-shadow: 7px 7px 0 #9d1a06;  margin:0 auto;}
+.tabla{ width:100%; border-collapse:collapse;  border:2px solid #ce0000;}
+		
+.ventanaD label {width:90px; display:inline-block;}
+.texto_derecha {text-align:center; padding-right:5px;} 
+.objeto_derecha {float:center; } 
+.objeto_centro {margin-left:60px;} 
+.mensaje_validacion {margin-left:85px; padding-top:7px; padding-bottom:7px;}
+.margen_derecha {padding-right:79px} 
+.b_boton {display:inline-block; padding: 3px 20px 2px 20px; background-color:#0d3951; color:#ffffff; font-weight:bolder; border:1px solid transparent; cursor:pointer;}
+.b_boton:hover{background-color:#0d3951;}
+
+.titulo {
+	background-color: #0d3951;
+	height:30px; 
+	padding:2px 7px 3px 7px !important;
+	vertical-align:top;
+	}
+	
+.ventanaD tr td{ 
+	padding:5px 10px;
+	}
+ .ventanaD .titulo label{display:block; height:20px; float:left; 
+	font-size:13px; color:#ffffff; font-weight:bolder; line-height:30px;}
+
+ .ventanaD .ico_login{float:left;
+	background-image: url(..WEB-INF/inicio.png);
+	background-repeat: no-repeat;background-position:-694px 0; width:19px; height:23px; 
+	display:inline-block; margin:2px 8px 0 0; }
+	
+.div_referencial{ display:block; padding-top:45px;
+ text-align:right; color:#717274}
+.div_referencial a{color:#ff0000;}
+.div_referencial a:hover{color:#0d3951;}
+
